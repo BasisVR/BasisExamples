@@ -26,6 +26,7 @@ Shader "Universal Render Pipeline/Simple Lit AudioLink"
         _AudioEmissionMinimum ("Emission Minimum", Float) = 0.1
         [Enum(Bass,0,LowMid,1,HighMid,2,Treble,3,Waveform,27)]
         _AudioBand ("Audio Band", Integer) = 0
+        [ToggleUI] _AudioEmissionInverse ("Audio Emission Inverse", Float) = 0
         [Enum(Instant,99, Alpha,3, Red,0, Green,1, Blue,2, Grey,4, UV X,5, UV Y,6, UV Center,7)]
         _AudioTimingSource ("Audio Timing Source", Integer) = 0
         [ToggleUI] _AudioTimingInverse ("Audio Timing Inverse", Float) = 0
